@@ -1,0 +1,415 @@
+ERROR - 2024-01-17 16:30:00 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:30:14 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem('1')
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:30:19 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:46 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:48 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:49 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:49 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:49 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:49 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:42:50 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:44:10 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:46:56 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(37): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:50:21 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:50:23 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:51:28 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 16:55:31 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:04:34 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:05:56 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:17:18 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:17:34 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:17:36 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:17:37 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:17:47 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:18:50 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-17 17:19:01 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2024-01-17 17:45:31 --> Received data: {"barang":"100","jumlah":4}
+INFO - 2024-01-17 18:02:53 --> Received data: {"tukar":"1000","jumlah":1}
+INFO - 2024-01-17 18:05:47 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-17 18:07:30 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-17 18:31:31 --> Received data: {"barang":"70","jumlah":13}
+INFO - 2024-01-17 18:32:05 --> Received data: {"tukar":"1000","jumlah":1}
+INFO - 2024-01-17 18:47:39 --> Received data: {"barang":"100","jumlah":10}
+INFO - 2024-01-17 18:49:50 --> Received data: {"tukar":"1200","jumlah":1}
+INFO - 2024-01-17 18:50:29 --> Received data: {"barang":"100","jumlah":50}
+ERROR - 2024-01-17 18:54:38 --> mysqli_sql_exception: Column 'barang' cannot be null in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\akademik\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\akademik\app\Controllers\Saldo.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Saldo->addItem()
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+#10 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2024-01-17 18:54:45 --> Received data: {"name":"Add your name in the body"}
+CRITICAL - 2024-01-17 18:54:45 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Saldo.php(49): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Saldo->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 20:02:47 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-17 20:09:49 --> Received data: {"barang":"70","jumlah":1}
+INFO - 2024-01-17 20:10:57 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-17 20:18:29 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-17 20:36:57 --> Received data: {"barang":"70","jumlah":2}
+INFO - 2024-01-17 20:37:17 --> Received data: {"barang":"100","jumlah":29}

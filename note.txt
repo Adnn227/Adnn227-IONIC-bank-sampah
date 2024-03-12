@@ -1,0 +1,6 @@
+cd ../backend
+php spark serve
+
+cd ../bankSampah
+npm i -force
+ionic serve

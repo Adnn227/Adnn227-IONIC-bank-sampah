@@ -1,0 +1,28 @@
+CRITICAL - 2024-01-16 17:27:49 --> Undefined index: jumlah
+in APPPATH\Controllers\Saldo.php on line 18.
+ 1 APPPATH\Controllers\Saldo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah', 'C:\\xampp\\htdocs\\akademik\\app\\Controllers\\Saldo.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Saldo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 17:27:56 --> Undefined index: jumlah
+in APPPATH\Controllers\Saldo.php on line 18.
+ 1 APPPATH\Controllers\Saldo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah', 'C:\\xampp\\htdocs\\akademik\\app\\Controllers\\Saldo.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Saldo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 17:28:34 --> Undefined index: jumlah
+in APPPATH\Controllers\Saldo.php on line 32.
+ 1 APPPATH\Controllers\Saldo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah', 'C:\\xampp\\htdocs\\akademik\\app\\Controllers\\Saldo.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Saldo->show('getsaldo')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 17:29:03 --> Undefined index: jumlah
+in APPPATH\Controllers\Saldo.php on line 32.
+ 1 APPPATH\Controllers\Saldo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah', 'C:\\xampp\\htdocs\\akademik\\app\\Controllers\\Saldo.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Saldo->show('getsaldo')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

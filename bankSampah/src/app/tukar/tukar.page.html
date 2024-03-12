@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button [routerLink]="['/profile']">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Tukar Saldo</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>
+      <ion-chip>
+        <ion-icon name="card-outline"></ion-icon>
+        <ion-label>{{saldo}}</ion-label>
+      </ion-chip>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- content start -->
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked">Tukar Saldo</ion-label>
+    <ion-select placeholder="Pilih item" [(ngModel)]="stor.tukar">
+      <ion-select-option value="1000">Beras 1Kg (1000)</ion-select-option>
+      <ion-select-option value="750">Telur 1/4Kg (750)</ion-select-option>
+      <ion-select-option value="3000">Sembako (3000)</ion-select-option>
+      <ion-select-option value="1200">Alat (1200)</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Jumlah</ion-label>
+    <ion-input type="number" [(ngModel)]="stor.jumlah"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="createStor()" [routerLink]="['/home']">Submit</ion-button>
+  <ion-item>
+    <h6 style="font-size: 75%; color: gray;">
+      <i>*Tukarkan Saldo anda dengan barang yang diinginkan.</i> <br><br>
+      <!-- <i>*Ini hanya aplikasi demo karena seharusnya ada 1 aplikasi lagi untuk Petugas yang menginput saldo.</i> -->
+    </h6>
+  </ion-item>
+</ion-content>
+<!-- content end -->
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button href="/home">
+          <ion-icon name="home-outline"></ion-icon>
+          Home
+        </ion-tab-button>
+        <ion-tab-button href="/tambah">
+          <ion-icon name="add-circle-outline"></ion-icon>
+          Tambah
+        </ion-tab-button>
+        <ion-tab-button href="/tukar">
+          <ion-icon name="swap-horizontal-outline"></ion-icon>
+          Tukar
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button [routerLink]="['/profile']">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Tambah Saldo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- content start -->
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked">Tambah</ion-label>
+    <ion-select placeholder="Pilih item" [(ngModel)]="user.barang">
+      <ion-select-option value="100">Plastic (100)</ion-select-option>
+      <ion-select-option value="70">Kardus (70)</ion-select-option>
+      <ion-select-option value="100">Botol (100)</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Jumlah /KG</ion-label>
+    <ion-input type="number" [(ngModel)]="user.jumlah"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="create()" [routerLink]="['/home']">Submit</ion-button>
+  <ion-item>
+    <h6 style="font-size: 75%; color: gray;">*Tukarkan sampah daur ulang anda sesuai kategori. <br><br>
+    <i>*Ini hanya aplikasi demo karena seharusnya ada 1 aplikasi lagi untuk Petugas yang menginput saldo.</i> </h6>
+  </ion-item>
+</ion-content>
+<!-- content end -->
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button href="/home">
+          <ion-icon name="home-outline"></ion-icon>
+          Home
+        </ion-tab-button>
+        <ion-tab-button href="/tambah">
+          <ion-icon name="add-circle-outline"></ion-icon>
+          Tambah
+        </ion-tab-button>
+        <ion-tab-button href="/tukar">
+          <ion-icon name="swap-horizontal-outline"></ion-icon>
+          Tukar
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

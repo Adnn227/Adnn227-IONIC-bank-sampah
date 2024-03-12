@@ -1,0 +1,94 @@
+ERROR - 2024-01-09 06:23:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('p:localhost', 'root', '', 'akademik_mobile', 3306, '', 0)
+#1 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\P...')
+#11 {main}
+CRITICAL - 2024-01-09 06:23:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\Pemprograman Berbasis Mobile I\\Program\\Rest_API\\API\\akademik\\public\\index.php')
+ERROR - 2024-01-09 06:25:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('p:localhost', 'root', '', 'akademik_mobile', 3306, '', 0)
+#1 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Semester 5\Pemprograman Berbasis Mobile I\Program\Rest_API\API\akademik\system\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\P...')
+#11 {main}
+CRITICAL - 2024-01-09 06:25:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Semester 5\\Pemprograman Berbasis Mobile I\\Program\\Rest_API\\API\\akademik\\public\\index.php')

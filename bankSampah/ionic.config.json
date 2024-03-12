@@ -1,0 +1,9 @@
+{
+  "name": "template",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    }
+  },
+  "type": "angular"
+}

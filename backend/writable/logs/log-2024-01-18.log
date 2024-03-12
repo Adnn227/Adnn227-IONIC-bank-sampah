@@ -1,0 +1,6 @@
+INFO - 2024-01-18 04:37:06 --> Received data: {"tukar":"1000","jumlah":1}
+INFO - 2024-01-18 04:37:30 --> Received data: {"barang":"70","jumlah":5}
+INFO - 2024-01-18 04:41:49 --> Received data: {"tukar":"750","jumlah":2}
+INFO - 2024-01-18 05:38:15 --> Received data: {"barang":"100","jumlah":2}
+INFO - 2024-01-18 05:39:02 --> Received data: {"tukar":"750","jumlah":1}
+INFO - 2024-01-18 05:52:39 --> Received data: {"barang":"100","jumlah":2}
